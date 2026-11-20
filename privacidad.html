@@ -3,48 +3,111 @@
 @media (prefers-color-scheme:dark){:root{--bg:#141820;--fg:#eef1f4;--muted:#a7b0bb;--accent:#6cc3cd}}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 main{max-width:680px;margin:0 auto;padding:32px 16px 64px}
-h1{font-size:1.6em;margin-top:1.4em}a{color:var(--accent)}li{margin:.35em 0}li.sub{margin-left:1.4em}
+h1{font-size:1.6em;margin-top:1.4em}a{color:var(--accent)}li{margin:.35em 0}ul ul{margin:.2em 0}
 .muted{color:var(--muted)}hr{border:0;border-top:1px solid var(--muted);opacity:.3;margin:2.5em 0}
 </style></head><body><main><h1>Política de privacidad de Alarmbox</h1>
-<p>Última actualización: 8 de noviembre de 2026</p>
-<p><strong>Alarmbox no tiene cuentas, no vende datos y no tiene publicidad.</strong></p>
+<p>Última actualización: 19 de noviembre de 2026</p>
+<p><strong>Alarmbox no tiene cuentas, no vende datos, no tiene publicidad y no te rastrea.</strong></p>
 <ul>
-<li><strong>Sin cuentas:</strong> no te pide registrarte ni iniciar sesión.</li>
-<li><strong>Tus alarmas quedan en tu iPhone:</strong> las alarmas, sus nombres, notas y horarios, tus preferencias y tus sonidos favoritos se guardan en tu dispositivo y no se envían a ningún servidor. Si usás las copias de seguridad de iOS (iCloud o tu computadora), pueden incluirlos, como pasa con cualquier app.</li>
-<li><strong>Datos de uso anónimos:</strong> para saber qué funciones se usan, Alarmbox manda datos anónimos con TelemetryDeck.</li>
-<li class="sub">Qué se manda: por ejemplo, «se creó una alarma semanal», «se salteó una alarma» o «se abrió Plus».</li>
-<li class="sub">Qué no se manda nunca: nombres de alarmas, notas, horarios ni datos que te identifiquen.</li>
-<li class="sub">TelemetryDeck no guarda tu identidad ni datos de tu dispositivo con los que se te pueda reconocer.</li>
-<li class="sub">Nada de esto se usa para publicidad ni se comparte con otros.</li>
-<li><strong>Compras:</strong> Alarmbox Plus se compra con la App Store. Los pagos los maneja Apple: nosotros no vemos tu tarjeta ni tus datos de pago.</li>
-<li><strong>Permisos:</strong></li>
-<li class="sub"><strong>Alarmas</strong> (AlarmKit): solo para que tus alarmas suenen.</li>
-<li class="sub"><strong>Notificaciones:</strong> solo para avisos de la propia app: el mensaje opcional después de una alarma, la pregunta «¿Ya estás despierto?» si pediste que insista, el aviso de que una serie se queda sin fechas programadas y el recordatorio de que termina la prueba gratis de Plus.</li>
-<li class="sub">Podés quitar cualquiera de los dos en Ajustes de iOS.</li>
-<li><strong>El widget de pantalla bloqueada:</strong> la app y el widget comparten los horarios y nombres de tus alarmas dentro del mismo iPhone, sin internet.</li>
-<li><strong>Borrar tus datos:</strong> si borrás la app, se borran sus datos de tu iPhone. Las copias de seguridad que ya existan no se modifican.</li>
-<li><strong>Menores:</strong> apta para todo público. No recolecta datos personales de nadie.</li>
-</ul>
-<p>Si tenés preguntas, escribinos a: <strong><a href="mailto:pip.alarmas@gmail.com">pip.alarmas@gmail.com</a></strong>.</p>
+<li><strong>Sin cuentas:</strong> no te pide registrarte ni iniciar sesión. Nunca te pide tu nombre ni tu mail.
+</li>
+<li><strong>Tus alarmas quedan en tu iPhone:</strong> las alarmas, sus nombres, notas y horarios, tus preferencias y tus sonidos favoritos se guardan en tu dispositivo y no se envían a ningún servidor. Si usás las copias de seguridad de iOS, pueden incluirlos, como pasa con cualquier app.
+</li>
+<li><strong>Datos de uso anónimos:</strong> para saber qué funciones se usan y mejorar la app, Alarmbox manda datos anónimos con TelemetryDeck (<a href="https://telemetrydeck.com/privacy">https://telemetrydeck.com/privacy</a>).
+<ul>
+<li><strong>Qué se manda:</strong>
+<ul>
+<li>Qué se hizo, sin el contenido: por ejemplo, "se creó una alarma semanal", "se salteó una alarma", "se empezó una siesta" o "se abrió Plus".
+</li>
+<li>Datos generales del iPhone y de la app: modelo, versión de iOS, idioma y región, zona horaria, tamaño de pantalla, modo claro u oscuro, ajustes de accesibilidad (como el tamaño de letra) y versión de la app.
+</li>
+<li>Números de uso: cuándo se usó la app por primera vez y cuántos días y sesiones lleva.
+</li>
+<li>Un identificador anónimo del dispositivo (ver abajo).
+</li></ul>
+</li>
+<li><strong>Qué no se manda nunca:</strong> nombres de alarmas, notas, horarios de tus alarmas, el código que escaneás, tu nombre, tu mail ni tu ubicación.
+</li>
+<li><strong>El identificador anónimo:</strong> iOS le da a cada app un identificador del dispositivo para ese desarrollador (no es el número de serie ni el identificador de publicidad, y puede cambiar si borrás todas las apps de este desarrollador). Antes de salir del iPhone se convierte en un código que no se puede volver atrás (SHA-256), y TelemetryDeck lo vuelve a convertir en su servidor. Sirve para contar cuántos dispositivos distintos usan una función, no para saber quién sos. Nosotros nunca vemos el identificador original.
+</li>
+<li><strong>Tu dirección IP:</strong> como en cualquier conexión a internet, el servidor de TelemetryDeck la recibe; según su política, no la guarda.
+</li>
+<li>Nada de esto se usa para publicidad, ni para rastrearte entre apps o sitios, ni se vende o se comparte con otros.
+</li>
+<li><strong>Podés apagarlos:</strong> en la app, Ajustes › Privacidad › «Mandar datos de uso anónimos». Viene prendido; si lo apagás, la app deja de mandar estos datos en el momento. Lo que ya se mandó no se puede borrar por persona (ver «Borrar tus datos»).
+</li></ul>
+</li>
+<li><strong>Compras:</strong> Alarmbox Plus se compra con la App Store. Los pagos los maneja Apple: nosotros no vemos tu tarjeta ni tus datos de pago.
+</li>
+<li><strong>Permisos:</strong>
+<ul>
+<li><strong>Alarmas</strong> (AlarmKit): solo para que tus alarmas suenen.
+</li>
+<li><strong>Notificaciones:</strong> solo para el mensaje opcional después de una alarma, la pregunta «¿Ya estás despierto?», avisarte si un turno se queda sin fechas programadas y el aviso de fin de la prueba de Plus.
+</li>
+<li><strong>Cámara:</strong> solo si elegís apagar una alarma escaneando un código (un QR o el código de barras de un producto). La cámara lee el código en el momento: la imagen no se guarda ni sale de tu iPhone. Lo único que queda guardado, en tu iPhone, es el código que elegiste.
+</li>
+<li>Podés quitar cualquiera de los tres en Ajustes de iOS.
+</li></ul>
+</li>
+<li><strong>El widget y el Centro de control:</strong> la app y sus extensiones comparten los horarios y nombres de tus alarmas dentro del mismo iPhone, sin internet.
+</li>
+<li><strong>Borrar tus datos:</strong> si borrás la app, se borran sus datos de tu iPhone. Los datos de uso anónimos no se pueden buscar ni borrar por persona, porque no están asociados a vos.
+</li>
+<li><strong>Menores:</strong> apta para todo público. No pide datos personales a nadie.
+</li></ul>
+<p>Preguntas: <strong><a href="mailto:pip.alarmas@gmail.com">pip.alarmas@gmail.com</a></strong>.</p>
 <hr>
 <h1>Alarmbox Privacy Policy</h1>
-<p>Last updated: November 8, 2026</p>
-<p><strong>Alarmbox has no accounts, doesn&#x27;t sell data and has no ads.</strong></p>
+<p>Last updated: November 19, 2026</p>
+<p><strong>Alarmbox has no accounts, doesn't sell data, has no ads and doesn't track you.</strong></p>
 <ul>
-<li><strong>No accounts:</strong> no sign-up or log-in.</li>
-<li><strong>Your alarms stay on your iPhone:</strong> alarms, their names, notes and times, your preferences and favorite sounds are stored on your device and never sent to a server. If you use iOS backups (iCloud or your computer), those backups may include them, as with any app.</li>
-<li><strong>Anonymous usage data:</strong> to learn which features are used, Alarmbox sends anonymous data through TelemetryDeck.</li>
-<li class="sub">What is sent: for example &ldquo;a weekly alarm was created&rdquo;, &ldquo;an alarm was skipped&rdquo; or &ldquo;Plus was opened&rdquo;.</li>
-<li class="sub">What is never sent: alarm names, notes, times or anything that identifies you.</li>
-<li class="sub">TelemetryDeck doesn&#x27;t store your identity or device details that could recognize you.</li>
-<li class="sub">None of this is used for advertising or shared with others.</li>
-<li><strong>Purchases:</strong> Alarmbox Plus is bought through the App Store. Apple handles payments: we never see your card or payment details.</li>
-<li><strong>Permissions:</strong></li>
-<li class="sub"><strong>Alarms</strong> (AlarmKit): only so your alarms ring.</li>
-<li class="sub"><strong>Notifications:</strong> only for the app&#x27;s own notices: the optional message after an alarm, the &ldquo;Are you awake?&rdquo; check if you asked it to keep insisting, the notice when a series runs out of scheduled dates, and the reminder that your Plus free trial is ending.</li>
-<li class="sub">You can turn either off in iOS Settings.</li>
-<li><strong>Lock Screen widget:</strong> the app and widget share your alarm times and names on the same iPhone, with no internet.</li>
-<li><strong>Deleting your data:</strong> deleting the app deletes its data from your iPhone. Existing backups aren&#x27;t changed.</li>
-<li><strong>Children:</strong> suitable for everyone. No personal data is collected from anyone.</li>
-</ul>
-<p>Questions? Write to us at: <strong><a href="mailto:pip.alarmas@gmail.com">pip.alarmas@gmail.com</a></strong>.</p></main></body></html>
+<li><strong>No accounts:</strong> no sign-up or log-in. It never asks for your name or email.
+</li>
+<li><strong>Your alarms stay on your iPhone:</strong> alarms, their names, notes and times, your preferences and favorite sounds are stored on your device and never sent to a server. iOS backups may include them, as with any app.
+</li>
+<li><strong>Anonymous usage data:</strong> to learn which features are used and improve the app, Alarmbox sends anonymous data through TelemetryDeck (<a href="https://telemetrydeck.com/privacy">https://telemetrydeck.com/privacy</a>).
+<ul>
+<li><strong>What is sent:</strong>
+<ul>
+<li>What was done, without its content: for example "a weekly alarm was created", "an alarm was skipped", "a nap was started" or "Plus was opened".
+</li>
+<li>General details about the iPhone and the app: model, iOS version, language and region, time zone, screen size, light or dark mode, accessibility settings (such as text size) and app version.
+</li>
+<li>Usage counts: when the app was first used and how many days and sessions it has been used.
+</li>
+<li>An anonymous device identifier (see below).
+</li></ul>
+</li>
+<li><strong>What is never sent:</strong> alarm names, notes, the times of your alarms, the code you scan, your name, your email or your location.
+</li>
+<li><strong>The anonymous identifier:</strong> iOS gives each app a device identifier for that developer (it is not the serial number or the advertising identifier, and it can change if you delete all of this developer's apps). Before leaving your iPhone it is turned into a one-way code (SHA-256), and TelemetryDeck converts it again on its server. It is used to count how many different devices use a feature, not to know who you are. We never see the original identifier.
+</li>
+<li><strong>Your IP address:</strong> as with any internet connection, TelemetryDeck's server receives it; according to its policy, it does not store it.
+</li>
+<li>None of this is used for advertising or to track you across apps or websites, and it is never sold or shared with others.
+</li>
+<li><strong>You can turn it off:</strong> in the app, Settings › Privacy › "Send anonymous usage data". It is on by default; if you turn it off, the app stops sending this data right away. What was already sent can't be deleted per person (see "Deleting your data").
+</li></ul>
+</li>
+<li><strong>Purchases:</strong> Alarmbox Plus is bought through the App Store. Apple handles payments: we never see your card or payment details.
+</li>
+<li><strong>Permissions:</strong>
+<ul>
+<li><strong>Alarms</strong> (AlarmKit): only so your alarms ring.
+</li>
+<li><strong>Notifications:</strong> only for the optional message after an alarm, the "Are you awake yet?" question, telling you when a shift runs out of scheduled dates and the reminder that the Plus trial is ending.
+</li>
+<li><strong>Camera:</strong> only if you choose to turn off an alarm by scanning a code (a QR code or a product's barcode). The camera reads the code on the spot: the image is never saved and never leaves your iPhone. The only thing stored, on your iPhone, is the code you chose.
+</li>
+<li>You can turn any of the three off in iOS Settings.
+</li></ul>
+</li>
+<li><strong>Widget and Control Center:</strong> the app and its extensions share your alarm times and names on the same iPhone, with no internet.
+</li>
+<li><strong>Deleting your data:</strong> deleting the app deletes its data from your iPhone. Anonymous usage data can't be looked up or deleted per person, because it isn't associated with you.
+</li>
+<li><strong>Children:</strong> suitable for everyone. It asks no one for personal data.
+</li></ul>
+<p>Questions: <strong><a href="mailto:pip.alarmas@gmail.com">pip.alarmas@gmail.com</a></strong>.</p>
+</main></body></html>
